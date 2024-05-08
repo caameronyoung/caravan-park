@@ -1,0 +1,58 @@
+
+.footer
+{
+    width: 100%;
+    display: block;
+    align-items: center;
+    background-color: aliceblue;
+    color: red;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.contentContainer /*everything is wrapped in this, and contentItem to space things evenly in a grid that can be infinitely nested (mainly seen on form page*/
+{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.contentItem
+{
+    display: table-cell;
+    text-align: center;
+    font-size: 0.9em;
+
+}
+.notFooter /*the fotter menu bar has different formatting so i wrap the rest of the body in this to keep formatting consistent for everything else*/
+{
+      width: 80%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 35px;
+      padding-left: 35px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 6%;
+      margin-right: 6%;
+      border-style: solid;
+      border-width: 20px;
+      border-color: aliceblue;
+
+}
+
+.contentImage
+{
+    display: table-cell;
+    font-size: 0.9em;
+    text-align: left;
+    margin: auto;
+}
+
+img
+{
+    width: 75%;
+    height: auto;
+}
